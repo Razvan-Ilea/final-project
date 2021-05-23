@@ -10,7 +10,12 @@ export function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="" />
+        <Link to="/">
+          <img src={logo} alt="" />
+        </Link>
+        <div className="logo-name">
+          <p>Razvan Ilea</p>
+        </div>
       </div>
 
       <div className="menu-btn">
@@ -20,9 +25,9 @@ export function Header() {
         <Link to="/about" style={buttons}>
           <p>About</p>
         </Link>
-        <Link to="/cv" style={buttons}>
+        {/* <Link to="/cv" style={buttons}>
           <p>CV</p>
-        </Link>
+        </Link> */}
         <Link to="/skills" style={buttons}>
           <p>Skills</p>
         </Link>
