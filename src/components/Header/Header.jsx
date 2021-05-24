@@ -25,9 +25,6 @@ export function Header() {
         <Link to="/about" style={buttons}>
           <p>About</p>
         </Link>
-        {/* <Link to="/cv" style={buttons}>
-          <p>CV</p>
-        </Link> */}
         <Link to="/skills" style={buttons}>
           <p>Skills</p>
         </Link>

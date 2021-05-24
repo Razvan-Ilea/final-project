@@ -2,6 +2,8 @@ import instagramLogo from "./instagram.png";
 import linkedinLogo from "./linkedin.png";
 import githubLogo from "./github-sign.png";
 import profileImage from "./image.jpeg";
+import cv from "./cv.pdf";
+import cvIcon from "./cv-icon.png";
 import "./About.css";
 
 export function About() {
@@ -42,6 +44,9 @@ export function About() {
           rel="noreferrer"
         >
           <img src={githubLogo} alt="" />
+        </a>
+        <a href={cv} target="_blank" rel="noreferrer">
+          <img src={cvIcon} alt="" />
         </a>
       </div>
     </div>

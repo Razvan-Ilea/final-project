@@ -8,7 +8,7 @@ import { About } from "./pages/About/About";
 import { Skills } from "./pages/Skills/Skills";
 import { Hobbies } from "./pages/Hobbies/Hobbies";
 import { Home } from "./pages/Home/Home";
-// import Particles from "react-particles-js";
+import Particles from "react-particles-js";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="/skills" component={Skills} />
           <Route path="/hobbies" component={Hobbies} />
         </Switch>
-        {/* <Particles
+        <Particles
           params={{
             particles: {
               number: {
@@ -42,7 +42,7 @@ function App() {
               },
             },
           }}
-        /> */}
+        />
         <Footer />
       </div>
     </Router>

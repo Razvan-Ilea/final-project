@@ -12,6 +12,7 @@ export function Skills() {
         For more than eight months I work to develop my skills at the Informal
         School of IT. These are the technologies that I learned to work with.
       </p>
+
       <div className="icons-container">
         <div>
           <a
