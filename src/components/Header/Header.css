@@ -1,6 +1,6 @@
 .header {
-  background: #21094e;
-  color: white;
+  background: #28282b;
+  color: #f1f7ed;
   width: 100%;
   height: 60px;
   display: flex;
@@ -18,7 +18,8 @@
 .menu-btn p {
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 20px;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .logo {
@@ -34,4 +35,17 @@
 .logo-name {
   margin: 0px;
   padding-left: 20px;
+}
+
+.menu-btn a:link,
+.menu-btn a:visited {
+  background-color: #28282b;
+  color: #f1f7ed;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-btn a:hover,
+.menu-btn a:active {
+  background-color: #828285;
 }

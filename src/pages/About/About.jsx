@@ -1,9 +1,9 @@
-import instagramLogo from "./instagram.png";
-import linkedinLogo from "./linkedin.png";
-import githubLogo from "./github-sign.png";
-import profileImage from "./image.jpeg";
+import instagramLogo from "./icons/instagram.png";
+import linkedinLogo from "./icons/linkedin.png";
+import githubLogo from "./icons/github-sign.png";
+import profileImage from "./icons/image.jpeg";
 import cv from "./cv.pdf";
-import cvIcon from "./cv-icon.png";
+import cvIcon from "./icons/cv-icon.png";
 import "./About.css";
 
 export function About() {

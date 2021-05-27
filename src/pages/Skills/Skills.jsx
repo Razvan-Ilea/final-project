@@ -1,7 +1,7 @@
-import htmlLogo from "./html.png";
-import cssLogo from "./css.png";
-import jsLogo from "./javascript.png";
-import reactLogo from "./react.png";
+import htmlLogo from "./icons/html.png";
+import cssLogo from "./icons/css.png";
+import jsLogo from "./icons/javascript.png";
+import reactLogo from "./icons/react.png";
 import "./Skills.css";
 
 export function Skills() {
@@ -14,7 +14,7 @@ export function Skills() {
       </p>
 
       <div className="icons-container">
-        <div>
+        <div className="html-container">
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"
@@ -22,9 +22,11 @@ export function Skills() {
           >
             <img src={htmlLogo} alt="" />
           </a>
-          <p>HTML</p>
+          <p>
+            <span>HTML</span>
+          </p>
         </div>
-        <div>
+        <div className="css-container">
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
@@ -32,9 +34,11 @@ export function Skills() {
           >
             <img src={cssLogo} alt="" />
           </a>
-          <p>CSS</p>
+          <p>
+            <span>CSS</span>
+          </p>
         </div>
-        <div>
+        <div className="js-container">
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
@@ -42,13 +46,17 @@ export function Skills() {
           >
             <img src={jsLogo} alt="" />
           </a>
-          <p>JavaScript</p>
+          <p>
+            <span>JavaScript</span>
+          </p>
         </div>
-        <div>
+        <div className="react-container">
           <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
             <img src={reactLogo} alt="" />
           </a>
-          <p>ReactJS</p>
+          <p>
+            <span>ReactJs</span>
+          </p>
         </div>
       </div>
     </div>

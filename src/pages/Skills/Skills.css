@@ -1,7 +1,7 @@
 .skills-container {
-  color: white;
-  background: rgb(205, 190, 207);
-  background: rgba(205, 190, 207, 0.5);
+  color: #f1f7ed;
+  background: rgb(161, 158, 161);
+  background: rgba(167, 161, 168, 0.5);
   height: 80%;
   width: 80%;
   border-radius: 35px;
@@ -21,4 +21,96 @@
 
 img {
   height: 40px;
+}
+
+.html-container p {
+  color: #f1f7ed;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+.html-container p span {
+  transition: 0.8s linear;
+}
+.html-container p:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.html-container p:hover span:nth-child(1):after {
+  content: " - Advanced";
+}
+
+.html-container p:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+.css-container p {
+  color: #f1f7ed;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+.css-container p span {
+  transition: 0.8s linear;
+}
+.css-container p:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.css-container p:hover span:nth-child(1):after {
+  content: " - Advanced";
+}
+
+.css-container p:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+.js-container p {
+  color: #f1f7ed;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+.js-container p span {
+  transition: 0.8s linear;
+}
+.js-container p:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.js-container p:hover span:nth-child(1):after {
+  content: " - Medium";
+}
+
+.js-container p:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+.react-container p {
+  color: #f1f7ed;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+.react-container p span {
+  transition: 0.8s linear;
+}
+.react-container p:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.react-container p:hover span:nth-child(1):after {
+  content: " - Beginner";
+}
+
+.react-container p:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
 }

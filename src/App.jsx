@@ -4,11 +4,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
 import "./App.css";
 import { About } from "./pages/About/About";
-// import { CV } from "./pages/CV/CV";
 import { Skills } from "./pages/Skills/Skills";
 import { Hobbies } from "./pages/Hobbies/Hobbies";
 import { Home } from "./pages/Home/Home";
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 
 function App() {
   return (
@@ -19,11 +18,10 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          {/* <Route path="/cv" component={CV} /> */}
           <Route path="/skills" component={Skills} />
           <Route path="/hobbies" component={Hobbies} />
         </Switch>
-        <Particles
+        {/* <Particles
           params={{
             particles: {
               number: {
@@ -42,7 +40,7 @@ function App() {
               },
             },
           }}
-        />
+        /> */}
         <Footer />
       </div>
     </Router>

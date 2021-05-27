@@ -20,16 +20,16 @@ export function Header() {
 
       <div className="menu-btn">
         <Link to="/" style={buttons}>
-          <p>Home</p>
+          <p className="big-button">Home</p>
         </Link>
         <Link to="/about" style={buttons}>
-          <p>About</p>
+          <p className="big-button">About</p>
         </Link>
         <Link to="/skills" style={buttons}>
-          <p>Skills</p>
+          <p className="big-button">Skills</p>
         </Link>
         <Link to="/hobbies" style={buttons}>
-          <p>Hobbies</p>
+          <p className="big-button">Hobbies</p>
         </Link>
       </div>
     </div>
