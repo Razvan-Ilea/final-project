@@ -1,7 +1,7 @@
-export function CV() {
+export function Contact() {
   return (
     <div>
-      <h1>CV</h1>
+      <h1>Constact</h1>
     </div>
   );
 }

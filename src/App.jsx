@@ -7,6 +7,7 @@ import { About } from "./pages/About/About";
 import { Skills } from "./pages/Skills/Skills";
 import { Hobbies } from "./pages/Hobbies/Hobbies";
 import { Home } from "./pages/Home/Home";
+import { Contact } from "./pages/Contact/Contact";
 // import Particles from "react-particles-js";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
           <Route path="/skills" component={Skills} />
           <Route path="/hobbies" component={Hobbies} />
         </Switch>

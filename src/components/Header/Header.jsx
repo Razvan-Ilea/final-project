@@ -31,6 +31,9 @@ export function Header() {
         <Link to="/hobbies" style={buttons}>
           <p className="big-button">Hobbies</p>
         </Link>
+        <Link to="/contact" style={buttons}>
+          <p className="big-button">Contact</p>
+        </Link>
       </div>
     </div>
   );
