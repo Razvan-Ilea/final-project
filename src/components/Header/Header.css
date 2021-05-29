@@ -30,6 +30,17 @@
 
 .logo img {
   height: 30px;
+  border-radius: 100%;
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .logo-name {
