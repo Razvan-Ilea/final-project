@@ -5,12 +5,10 @@ import profileImage from "./icons/image.jpeg";
 import cv from "./cv.pdf";
 import cvIcon from "./icons/cv-icon.png";
 import "./About.css";
-// import { Header } from "../../components/Header/Header";
 
 export function About() {
   return (
     <div>
-      {/* <Header /> */}
       <div className="about-container">
         <div className="about-description">
           <h1>About me</h1>
