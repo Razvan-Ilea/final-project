@@ -8,7 +8,6 @@ import { Skills } from "./pages/Skills/Skills";
 import { Hobbies } from "./pages/Hobbies/Hobbies";
 import { Home } from "./pages/Home/Home";
 import { Contact } from "./pages/Contact/Contact";
-// import Particles from "react-particles-js";
 
 function App() {
   return (
@@ -23,26 +22,6 @@ function App() {
           <Route path="/skills" component={Skills} />
           <Route path="/hobbies" component={Hobbies} />
         </Switch>
-        {/* <Particles
-          params={{
-            particles: {
-              number: {
-                value: 150,
-              },
-              size: {
-                value: 5,
-              },
-            },
-            interactivity: {
-              events: {
-                onHover: {
-                  enable: true,
-                  mode: "repulse",
-                },
-              },
-            },
-          }}
-        /> */}
         <Footer />
       </div>
     </Router>
